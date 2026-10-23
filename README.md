@@ -20,8 +20,8 @@ Grab the installer for your platform from the [Releases page](https://github.com
 2. Open the `.dmg` and drag the app into `/Applications`.
 3. The app isn't notarized yet, so Gatekeeper blocks it on first launch ("can't be opened" / "unidentified developer"). Clear the quarantine flag and open it once from Terminal:
    ```bash
-   xattr -cr /Applications/Acquiloom.app
-   open /Applications/Acquiloom.app
+   xattr -cr /Applications/ArchiHUB.app
+   open /Applications/ArchiHUB.app
    ```
 4. After that first launch, it opens normally from Launchpad/Finder like any other app.
 
